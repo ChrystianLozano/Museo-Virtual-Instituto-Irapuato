@@ -34,3 +34,4 @@ document.addEventListener("DOMContentLoaded", function () {
         window.addEventListener("resize", lazyLoad);
         window.addEventListener("orientationchange", lazyLoad);
     });
+    document.oncontextmenu = function(){return false}
